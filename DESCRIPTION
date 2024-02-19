@@ -1,0 +1,16 @@
+Package: cda
+Type: Package
+Title: Canonical Direction Analysis
+Version: 0.1.0
+Authors@R: c(
+    person("Peyton", "Kuhlers", email='peyton_kuhlers@med.unc.edu', role = c('aut','cre')))
+Maintainer: Peyton Kuhlers <peyton_kuhlers@med.unc.edu>
+Description: Calculate canonical parallel and orthogonal directions
+    through eigendecomposition (or SVD) of a set of paired matrices.
+    Based on work from Xuxin Liu's 2007 dissertation under the direction of Steve Marron.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    irlba
+RoxygenNote: 7.3.1
